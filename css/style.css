@@ -517,6 +517,11 @@ body.loaded .ms_loader {
 .ms_nav_wrapper ul li a.active span.nav_icon>.icon.icon_station {
 	background-position: -180px -28px;
 }
+.ms_nav_wrapper ul li a:hover span.nav_icon>.icon.icon_message,
+.icon.icon_genres,
+.ms_nav_wrapper ul li a.active span.nav_icon>.icon.icon_message {
+	background-position: -389px -27px;
+}
 .ms_nav_wrapper ul li a:hover span.nav_icon>.icon.icon_download,
 .icon.icon_genres,
 .ms_nav_wrapper ul li a.active span.nav_icon>.icon.icon_download {
@@ -587,6 +592,9 @@ span.nav_text {
 }
 .ms_nav_wrapper span.nav_icon>.icon.icon_station {
 	background-position: -180px 2px;
+}
+.ms_nav_wrapper span.nav_icon>.icon.icon_message {
+	background-position: -389px 3px;
 }
 .ms_nav_wrapper span.nav_icon>.icon.icon_download {
 	background-position: -210px 2px;
